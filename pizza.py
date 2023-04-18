@@ -22,7 +22,7 @@ total = 0
 def main():
     another_order = True
     while another_order:
-        get_pizza_data()
+        get_user_data()
         perform_calculations()
         display_results()
         yesno = input("Would you like to order another pizza? (Y/N) :")
