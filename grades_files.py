@@ -59,7 +59,7 @@ def create_report_file():
     line = "\n***************************************"
     repfile = open(out_file, "w")
     repfile.write("\n************ CSC 230 Grade Report**********")
-    repfile.write("\nReport Date/Time    : " + str(datime.datetime.now()))
+    repfile.write("\nReport Date/Time    : " + str(datetime.datetime.now()))
     repfile.write("\nTotal Number of Students: " + str(len(stu)))
     repfile.write("\nAverage Student Grade   : " + format(average, '5,.2f'))
     repfile.write("\nTotal number of A grades: " + str(totA))
