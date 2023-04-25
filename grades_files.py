@@ -68,7 +68,7 @@ def create_report_file():
     repfile.write("\nTotal number of D grades: " + str(totD))
     repfile.write("\nTotal number of F grades: " + str(totF))
     repfile.write(line)
-    repfile.write("\nNAME      HW\tMID\tFIN\tFINAL GRADE")
+    repfile.write("\nNAME              HW\tMID\tFIN\tFINAL GRADE")
     for i in range(len(stu)):
         sname = '{0:<18}'.format(stu[i][0]+',  '+stu[i][1])
         hw = str(stu[i][2])
