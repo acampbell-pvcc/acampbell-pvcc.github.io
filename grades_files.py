@@ -78,7 +78,7 @@ def create_report_file():
         repfile.write("\n"+ sname + "\t" + hw + "\t" + midex +"\t" + finex + "\t" + " " + " " +" " + stu[i][6])
     repfile.write(line)
     repfile.close()
-    print("Open this file to view the Grades Report: " + our_file)
+    print("Open this file to view the Grades Report: " + out_file)
 
 main()
     
